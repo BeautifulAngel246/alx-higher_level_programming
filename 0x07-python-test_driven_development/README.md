@@ -1,5 +1,6 @@
 0. Integers addition
 mandatory
+Score: 0.0% (Checks completed: 0.0%)
 Write a function that adds 2 integers.
 
 Prototype: def add_integer(a, b=98):
