@@ -1,13 +1,9 @@
 #!/usr/bin/node
 
-const words = ['C is fun', 'Python is cool', 'JavaScript is amazing'];
+// Define an array of strings
+const languages = ['C is fun', 'Python is cool', 'JavaScript is amazing'];
 
-for (let i = 0; i < words.length; i++) {
-  console.log(words[i]);
-}#!/usr/bin/node
-
-const words = ['C is fun', 'Python is cool', 'JavaScript is amazing'];
-
-for (let i = 0; i < words.length; i++) {
-  console.log(words[i]);
+// Loop through the array and print each string
+for (const language of languages) {
+  console.log(language);
 }
